@@ -278,7 +278,6 @@ const projects = [
     image: ramesushi,
     source_code_link: "https://katesgo.github.io/ramesushi/",
   },
-];
   
   {
     name: "Flower Store",
