@@ -234,7 +234,52 @@ const testimonials = [
 ];
 
 const projects = [
-  {
+  
+{
+	name: "Metaversus",
+	description:
+	"A modern website about the metaverse utilizing tailwind and making most elements move while scrolling down. ",
+	tags: [
+	{
+	name: "HTML",
+	color: "blue-text-gradient",
+	},
+	{
+	name: "JavaScript",
+	color: "green-text-gradient",
+	},
+	{
+	name: "CSS",
+	color: "pink-text-gradient",
+	},
+	],
+	image: metaverse,
+	source_code_link: "https://katesgo.github.io/meta/",
+},
+
+{
+    name: "Ramesushi",
+    description:
+      "A sushi restaurant online ecommerce website with lots of motion effects while scrolling down",
+    tags: [
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ramesushi,
+    source_code_link: "https://katesgo.github.io/ramesushi/",
+  },
+
+{
     name: "Flower Store",
     description:
       "Web-based e-commerce storefront of a flower shop. Sections includes latest products, review and contact section. ",
@@ -309,48 +354,7 @@ const projects = [
     image: login,
     source_code_link: "https://katesgo.github.io/login/",
   },
-  {
-    name: "Metaversus",
-    description:
-      "A modern website about the metaverse utilizing tailwind and making most elements move while scrolling down. ",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: metaverse,
-    source_code_link: "https://katesgo.github.io/meta/",
-  },
-  {
-    name: "Ramesushi",
-    description:
-      "A sushi restaurant online ecommerce website with lots of motion effects while scrolling down",
-    tags: [
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Vite",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ramesushi,
-    source_code_link: "https://katesgo.github.io/ramesushi/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
