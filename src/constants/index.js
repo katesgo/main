@@ -184,7 +184,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      " ",
     name: "Sunrise",
     designation: "CFO",
     company: "Acme Co",
@@ -192,7 +192,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      " ",
     name: "Blossom",
     designation: "COO",
     company: "DEF Corp",
@@ -200,7 +200,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      " ",
     name: "Neighbour",
     designation: "CTO",
     company: "456 Enterprises",
@@ -208,7 +208,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      " ",
     name: "In the jungle",
     designation: "CTO",
     company: "456 Enterprises",
@@ -216,7 +216,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      " ",
     name: "Ancient Sculpture",
     designation: "CTO",
     company: "456 Enterprises",
@@ -224,7 +224,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      " ",
     name: "Purple Rain",
     designation: "CTO",
     company: "456 Enterprises",
@@ -234,6 +234,52 @@ const testimonials = [
 ];
 
 const projects = [
+
+  {
+   name: "Metaversus",
+   description:
+     "A modern website about the metaverse utilizing tailwind and making most elements move while scrolling down. ",
+   tags: [
+     {
+       name: "HTML",
+       color: "blue-text-gradient",
+     },
+     {
+       name: "JavaScript",
+       color: "green-text-gradient",
+     },
+     {
+       name: "CSS",
+       color: "pink-text-gradient",
+     },
+   ],
+   image: metaverse,
+   source_code_link: "https://katesgo.github.io/meta/",
+  },
+
+  {
+    name: "Ramesushi",
+    description:
+      "A sushi restaurant online ecommerce website with lots of motion effects while scrolling down",
+    tags: [
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ramesushi,
+    source_code_link: "https://katesgo.github.io/ramesushi/",
+  },
+];
+  
   {
     name: "Flower Store",
     description:
@@ -309,48 +355,6 @@ const projects = [
     image: login,
     source_code_link: "https://katesgo.github.io/login/",
   },
-  {
-    name: "Metaversus",
-    description:
-      "A modern website about the metaverse utilizing tailwind and making most elements move while scrolling down. ",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: metaverse,
-    source_code_link: "https://katesgo.github.io/meta/",
-  },
-  {
-    name: "Ramesushi",
-    description:
-      "A sushi restaurant online ecommerce website with lots of motion effects while scrolling down",
-    tags: [
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Vite",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ramesushi,
-    source_code_link: "https://katesgo.github.io/ramesushi/",
-  },
-];
+
 
 export { services, technologies, experiences, testimonials, projects };
