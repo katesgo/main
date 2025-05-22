@@ -193,10 +193,26 @@ const testimonials = [
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Blossom",
+    name: "Personal Logo",
     designation: "COO",
     company: "DEF Corp",
+    image: logo1,
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "In the jungle",
+    designation: "CTO",
+    company: "456 Enterprises",
     image: art2,
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "DJ Misstique personal logo",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: logo2,
   },
   {
     testimonial:
@@ -209,26 +225,10 @@ const testimonials = [
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "In the jungle",
+    name: "NEFER designs Clothing brand logo",
     designation: "CTO",
     company: "456 Enterprises",
-    image: art4,
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Ancient Sculpture",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: art5,
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Purple Rain",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: art6,
+    image: logo3,
   },
  
 ];
